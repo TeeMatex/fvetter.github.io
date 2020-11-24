@@ -1,5 +1,7 @@
 "use strict";
-
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+};
 /************************************************************************
  *                                                                      *
  *                  Ginko Bus Progressive Web Application               *
