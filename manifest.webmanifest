@@ -1,7 +1,7 @@
 {
   "name": "ginko",
-  "short_name": ginko
-  "description": "Ginko manifest app",
+  "short_name": "ginko",
+  "description" :"Ginko manifest app",
   "icons": [
         {
           "src": "icons/icon-32.png",
