@@ -1,7 +1,5 @@
 "use strict";
-if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js');
-};
+
 /************************************************************************
  *                                                                      *
  *                  Ginko Bus Progressive Web Application               *
@@ -9,7 +7,9 @@ if('serviceWorker' in navigator) {
  ************************************************************************/
 document.addEventListener("DOMContentLoaded", function (_e) {
 
-    
+    if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+};
     /******************************************************************
             Fonctions à compléter dans la dernière partie du TP 
     ******************************************************************/
